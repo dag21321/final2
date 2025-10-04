@@ -1,0 +1,85 @@
+body {
+    font-family: 'Comfortaa';
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav,
+a {
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 110%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15%;
+    transition: all 0.2s ease;
+}
+
+nav,
+a:hover {
+    font-size: 125%;
+}
+
+
+header {
+    background: linear-gradient(#51CBFF, #C4EFFF);
+    padding: 5%;
+}
+
+footer,
+p {
+    text-align: center;
+    color: white;
+    padding-left: 30%;
+    padding-top: 2%;
+}
+
+footer,
+img {
+    display: flex;
+    position: relative;
+}
+
+footer {
+    background: linear-gradient(#51CBFF, #C4EFFF);
+    padding: 5%;
+}
+
+.About-us {
+    position: relative;
+    padding-top: 2%;
+}
+
+main {
+    background-color: #4BC9FF;
+    padding: 2%;
+}
+
+.button {
+    font-size: 135%;
+}
+
+.button:hover {
+    font-size: 150%;
+}
+
+h2 {
+    text-align: center;
+}
+
+span {
+    color: #2F00FF;
+}
